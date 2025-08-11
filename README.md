@@ -16,17 +16,92 @@ The Koalang Censorship Game features role-based gameplay where one player (the *
 6. **Validation**: A "stronger" AI model validates whether guesses match the hidden message
 7. **Scoring**: Points are awarded for successful communication and correct guesses
 
-### Example Challenge
+### Example Challenges
+
+Here are some sample challenges that demonstrate the range of difficulty levels and creative themes:
+
+#### Easy Challenges
+```json
+{
+  "round": 1,
+  "difficulty": "Easy",
+  "hidden": "Datadog's dashboards are unreliable lately.",
+  "theme": "Medieval town gossip.",
+  "setting": "Lunchtime at a crepe stand in the \"old quarter\" of a fantasy town built in Minecraft during a weekend team jam.",
+  "example": "This morning the watchtower's bell rang thrice, but the sound drowned under the clatter of copper pots in the square. By evening, the mayor's hound was asleep in the sun while the caravan passed the east gate. Have you tried the baker's new plum tarts?"
+}
+```
 
 ```json
 {
+  "round": 2,
   "difficulty": "Easy",
-  "hidden": "Datadog's dashboards are unreliable lately.",
-  "theme": "Medieval town gossip",
-  "setting": "Lunchtime at a crepe stand in the old quarter of a fantasy town",
-  "example": "This morning the watchtower's bell rang thrice, but the sound drowned under the clatter of copper pots in the square..."
+  "hidden": "QA environment is too slow for meaningful testing.",
+  "theme": "Ancient sea trade.",
+  "setting": "Leaning on the rail of a tall ship in the middle of the office \"virtual sailing regatta\" game world.",
+  "example": "Our galley has sat in the harbor so long the figs in the hold have turned to wine. The tide whispers it might turn next moon, but even the dock rats have moved on. Speaking of, I found an old coin under my chair yesterday."
 }
 ```
+
+#### Medium Challenges
+```json
+{
+  "round": 4,
+  "difficulty": "Medium",
+  "hidden": "GitHub Actions keep failing randomly.",
+  "theme": "Victorian factory.",
+  "setting": "Tea break in the dusty corner of our pretend \"Team Steamworks\" factory simulator map.",
+  "example": "The brass gear on line three seized again, sending soot through the glass roof. Foreman says the belts will run by nightfall, but the pigeons nesting in the rafters seem unconvinced. I might bring an umbrella tomorrow."
+}
+```
+
+```json
+{
+  "round": 6,
+  "difficulty": "Medium",
+  "hidden": "I recommend you go to Slovenia.",
+  "theme": "Fairy tale quest.",
+  "setting": "Lunch on the terrace of the \"Green Vale Inn\" in our shared D&D side campaign map.",
+  "example": "Past the emerald lake, the road bends into valleys where the wind holds its breath. There's an inn there with green-ink maps and honey wine. The miller says no traveler has returned unhappy, though the blacksmith swears the mountains hum at dusk."
+}
+```
+
+#### Hard Challenges
+```json
+{
+  "round": 7,
+  "difficulty": "Hard",
+  "hidden": "Flights are expensive when children are out of school.",
+  "theme": "Seasonal farming.",
+  "setting": "Fruit stand at the \"Harvest Fair\" in our virtual Stardew Valley co-op farm.",
+  "example": "When the orchards are ripe, the wagons cost thrice their weight in silver, for the children have left the fields to chase dragonflies. Wait for the frost, and the roads grow cheaper, though the apples lose their blush."
+}
+```
+
+```json
+{
+  "round": 9,
+  "difficulty": "Hard",
+  "hidden": "My new hobby is baking bread.",
+  "theme": "Mechanical engineering.",
+  "setting": "Tool bench in the \"Clockmaker's Loft\" world we sometimes meet in on Gather Town.",
+  "example": "I've been tuning a small furnace, adjusting the pressure to coax a perfect rise in the central chamber. The vents release the most satisfying aroma when the cycle ends. Next week, I'll try a sour mix of gears."
+}
+```
+
+#### Very Hard Challenge
+```json
+{
+  "round": 10,
+  "difficulty": "Very Hard",
+  "hidden": "I can't join Friday's after-work call; I'll be hiking.",
+  "theme": "Old-school video gaming.",
+  "setting": "Pixel-art mountain pass in our team's custom Terraria server.",
+  "example": "Skipping the Friday dungeon raid — I found a hidden mountain level that only unlocks in single-player mode. The sprites are shy, and the air meter runs slow. Might take a screenshot if I survive the cliff boss."
+}
+```
+
+Notice how the challenges cleverly disguise modern workplace and personal situations within fantasy and historical contexts, requiring players to be creative with their language while staying true to the thematic setting.
 
 ## Features
 
